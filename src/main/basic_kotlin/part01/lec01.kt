@@ -1,4 +1,4 @@
-
+package part01
 fun main() {
     // variable in Kotlin
     var number1 = 10
@@ -17,10 +17,4 @@ fun main() {
 
     var person = Person("John", 20)
 
-}
-
-class Person(val name: String, val age: Int) {
-    fun isAdult(): Boolean {
-        return age >= 20
-    }
 }
